@@ -1,6 +1,8 @@
 import React from "react";
-
+import { useSelector } from "react-redux";
 const Sidebar = () => {
+  const boolean = useSelector((store) => store.app.isMenuOpen);
+  if (!boolean) return null;
   return (
     <div
       className="text-white bg-black w-1/4
