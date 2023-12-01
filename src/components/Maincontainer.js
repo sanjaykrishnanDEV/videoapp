@@ -3,7 +3,7 @@ import Buttons from "./Buttons";
 import Videocontainer from "./Videocontainer";
 const Maincontainer = () => {
   return (
-    <div className="flex flex-col h-screen w-full">
+    <div className="flex flex-col h-auto w-full overflow-y-scroll">
       {/* <div className=" overflow-x-scroll">
         <Buttons />
       </div> */}      

@@ -6,8 +6,10 @@ const Videotile = ({ info }) => {
   const { channelTitle, title, thumbnails } = snippet;
   //console.log(title);
   return (
-    <div className="m-3 h-56 w-48 flex flex-col justify-center items-center shadow-lg
-    border-2 p-2 rounded-md hover:bg-slate-400 cursor-pointer">
+    <div
+      className="m-3 h-56 w-48 flex flex-col justify-center items-center shadow-lg
+    border-2 p-2 rounded-md hover:bg-slate-400 cursor-pointer"
+    >
       <img src={thumbnails.standard.url} alt={title} />
       <div className=" overflow-hidden h-1">
         <p className="font-mono text-sm p-1">{title}</p>

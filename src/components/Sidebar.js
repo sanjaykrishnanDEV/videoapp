@@ -5,7 +5,7 @@ const Sidebar = () => {
   if (!boolean) return null;
   return (
     <div
-      className="text-white bg-black w-1/4
+      className="text-white bg-black w-1/4 h-full
     hidden md:flex md:flex-col justify-start items-center text-center"
     >
       <h3 className=" hover:bg-slate-400 w-full m-1 cursor-pointer">Home</h3>
